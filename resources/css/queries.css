@@ -1,0 +1,121 @@
+
+/* Big tablet to 1200px (widths smaller than the 1140px row): 1024px to 1200px */
+@media only screen and (max-width: 1200px) {
+	.hero-text-box {
+	    width: 100%;
+	    padding: 0 2%;
+	}
+
+	.row { padding: 0 2%;}
+}
+
+/* Small tablet to Large tablet: 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+	body { font-size: 18px; }
+	section { padding: 60px 0; }
+
+	.long-copy {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.steps-box:first-child { margin-top: 10px; }
+	.steps-box:last-child {margin-top: 10px; }
+	.works-step:first-of-type { margin-bottom: 30px; }
+	.works-step:nth-of-type(2) { margin-bottom: 30px; }
+	.works-step:last-of-type { margin-bottom: 50px; }
+
+	.app-screen { width: 50%; } 
+
+	.icon-small { 
+		width: 17px;
+		margin-right: 5px;
+	}
+	.city-feature { font-size: 90%; }
+
+	.plan-box {
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	.plan-price { font-size: 250%; }
+
+	.contact-form { width: 90%; }
+}
+
+/* Small phones to small tablets: 481px to 767px */
+@media only screen and (max-width: 767px) {
+	body { font-size: 16px; }
+	section { padding: 30px 0; }
+
+	.row,
+	.hero-text-box { padding: 0 4%; }
+	.col { 
+		width: 100%; 
+		margin: 0 0 4% 0;
+	}
+	.main-nav { display: none; }
+	h1 { font-size: 180%; }
+	h2 { font-size: 150%; }
+
+	.long-copy { 
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	.section-features>.row{	text-align: center;	}
+
+	.section-steps h2 {
+		font-size: 145%;
+	}
+
+	.app-screen { width: 30%; }
+
+	.steps-box:first-child { text-align: center; }
+	
+	.steps-box:last-child { 
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.works-step div {
+	    height: 40px;
+	    width: 40px;
+	    padding: 4px;
+	    margin-right: 15px;
+	    font-size: 120%;
+	}
+	.works-step:first-of-type { margin-bottom: 40px; }
+	.works-step:nth-of-type(2) { margin-bottom: 40px; }
+	.works-step:last-of-type { margin-bottom: 50px; }
+
+	.cities img { 
+		width: 75%;
+		margin-bottom: 4px; 
+	}
+
+	.cities h3 { 
+		font-size: 150%;
+		margin-bottom: 4px;
+	}
+
+	.cities { text-align: center; }
+
+	.section-testimonials { text-align: center; }
+
+	cite { margin-top: 20px; }
+
+	.section-plans { text-align: center; }
+
+	.section-form label { padding-left: 5px; }
+
+	#send-btn { text-align: center; }
+
+	.social-links { float: left; }
+}
+/* Small phones: 0 to 480px */
+@media only screen and (max-width: 480px) {
+	section { padding: 25px 0; }
+	.contact-form { width: 100%; }
+}
+
